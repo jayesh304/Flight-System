@@ -25,19 +25,19 @@ public class Flight {
         this.bookedSeats++;
     }
 
-    public String getFlightNumber() {
+    public String getFlightNumber() { //Getter for flight number
         return flightNumber;
     }
 
-    public void setFlightNumber(String flightNumber) {
+    public void setFlightNumber(String flightNumber) { //Setter for Flight Number
         this.flightNumber = flightNumber;
     }
 
-    public String getAirline() {
+    public String getAirline() { //Getter
         return airline;
     }
 
-    public void setAirline(String airline) {
+    public void setAirline(String airline) { //Setter
         this.airline = airline;
     }
 
