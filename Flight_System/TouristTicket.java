@@ -13,11 +13,11 @@ public class TouristTicket extends Ticket {
         this.selectedTouristLocation= selectedTouristLocation;
     }
 
-    public String getHotelAddress() {
+    public String getHotelAddress() { // Getter Method
         return hotelAddress;
     }
 
-    public void setHotelAddress(String hotelAddress) {
+    public void setHotelAddress(String hotelAddress) {  // Setter Method
         this.hotelAddress = hotelAddress;
     }
 

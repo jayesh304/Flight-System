@@ -21,7 +21,7 @@ public class Flight {
             return "Not Available";
     }
 
-    public void incrementBookingCounter(){
+    public void incrementBookingCounter(){      //Seat Booking Counter
         this.bookedSeats++;
     }
 
@@ -49,11 +49,11 @@ public class Flight {
         this.capacity = capacity;
     }
 
-    public int getBookedSeats() {
+    public int getBookedSeats() {       // Getter Method
         return passenger.getPassengerCount();
     }
 
-    public void setBookedSeats(int bookedSeats) {
+    public void setBookedSeats(int bookedSeats) {       // setter Method
         this.bookedSeats = bookedSeats;
     }
 }
